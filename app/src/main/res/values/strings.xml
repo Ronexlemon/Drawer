@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Drawer</string>
+    <string name="ronex_ondimu">Ronex Ondimu</string>
+    <string name="home1">Home</string>
+    <string name="setting">Setting</string>
+    <string name="send">Send</string>
+    <string name="close">close</string>
+    <string name="open">open</string>
+    <string name="shop">Shop</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">name</string>
+    <string name="name_des">Name</string>
+    <string name="pass">password</string>
+    <string name="password">password</string>
+    <string name="email">email</string>
+    <string name="email_gmail_com">email@gmail.com</string>
+    <string name="media">Media</string>
+    <string name="sends">Send</string>
+    <string name="username">Username</string>
+    <string name="title_activity_shop2">ShopActivity2</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="banana">Banana</string>
+    <string name="mango">mango</string>
+    <string name="cocoa">cocoa</string>
+    <string name="orange">orange</string>
+    <string name="about">about</string>
+    <string name="home">Home</string>
+    <string name="name1">Nice Image</string>
+    <string name="accept">Accept</string>
+    <string name="decline">Decline</string>
+    <string name="message">Do you accept pay?</string>
+    <string name="backdrop">backdrop</string>
+    <string name="dialog">Dialog</string>
+    <string name="sheet">Sheet</string>
+    <string name="save1">Save</string>
+    <string name="recycler">Recycler</string>
+</resources>

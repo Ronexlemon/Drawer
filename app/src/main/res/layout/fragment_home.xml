@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" >
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.google.android.material.bottomappbar.BottomAppBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bottomappbar"
+            android:layout_gravity="bottom"
+            app:navigationIcon="@drawable/navi"
+            app:menu="@menu/appbottom"
+
+            tools:ignore="BottomAppBar" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".homeFragment">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name"
+        app:startIconDrawable="@drawable/ic_baseline_account_circle_24"
+        app:startIconContentDescription="@string/name_des"
+        app:endIconMode="clear_text"
+style="@style/Widget.MaterialComponents.BottomAppBar.Colored"
+        android:layout_margin="32dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:inputType="text"
+            android:id="@+id/user"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/pass"
+        app:startIconDrawable="@drawable/ic_baseline_lock_24"
+        app:startIconContentDescription="@string/password"
+        app:endIconMode="password_toggle"
+        android:layout_margin="32dp"
+      >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:inputType="textPassword"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email_gmail_com"
+        app:startIconDrawable="@drawable/ic_baseline_email_24"
+        app:startIconContentDescription="@string/email"
+        app:endIconMode="clear_text"
+        android:layout_margin="32dp"
+
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:inputType="textEmailAddress"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+</LinearLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </layout >

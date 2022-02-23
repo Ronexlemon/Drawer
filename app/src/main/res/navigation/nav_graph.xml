@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.drawer.homeFragment"
+        android:label="homeFragment" >
+        <action
+            android:id="@+id/action_homeFragment_to_shopFragment"
+            app:destination="@id/shopFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_backDropFragment"
+            app:destination="@id/backDropFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_sheetFragment"
+            app:destination="@id/sheetFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_recyclerFragment"
+            app:destination="@id/recyclerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/backDropFragment"
+        android:name="com.example.drawer.BackDropFragment"
+        android:label="fragment_back_drop"
+        tools:layout="@layout/fragment_back_drop" />
+    <fragment
+        android:id="@+id/sheetFragment"
+        android:name="com.example.drawer.SheetFragment"
+        android:label="SheetFragment" />
+    <fragment
+        android:id="@+id/recyclerFragment"
+        android:name="com.example.drawer.RecyclerFragment"
+        android:label="fragment_recycler"
+        tools:layout="@layout/fragment_recycler" />
+</navigation>
